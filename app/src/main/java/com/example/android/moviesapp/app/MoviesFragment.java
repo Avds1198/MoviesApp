@@ -42,7 +42,7 @@ public  class MoviesFragment extends Fragment {
     static int width;
     static ArrayList<String> posters;
     static boolean sortByPop = true;
-    static String API_KEY = "08765dd6b49c012ab87c766a8f46fc03";
+    static String API_KEY = "";
 
     static PreferenceChangeListener listener;
     static SharedPreferences prefs;
