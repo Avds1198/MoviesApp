@@ -20,7 +20,7 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         if(savedInstanceState==null)
@@ -58,7 +58,7 @@ public class DetailActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void favorite(View v)
     {
-        Button b = (Button)findViewById(R.id.favorite);
+        Button b = findViewById(R.id.favorite);
         if(b.getText().equals("FAVORITE"))
         {
 

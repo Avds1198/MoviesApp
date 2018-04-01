@@ -4,13 +4,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
 @SuppressWarnings("ALL")
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
     public static boolean TABLET = false;
     public boolean isTablet(Context context)
     {
